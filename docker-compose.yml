@@ -34,7 +34,7 @@ services:
       - mongodb:/data/db
     restart: always
     networks:
-    - springappnetwork
+    - customoverlay
     
 volumes:
   mongodb:
